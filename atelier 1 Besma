@@ -1,0 +1,17 @@
+   capture 1 
+3- port 8003
+4- n° paquet 37
+5- n° paquet qui commence: 37 (syn)
+   n° paquet qui termine 45 (Fin ack)
+   
+   Capture 2
+   1- connaître l'adresse ip du serveur google et le diagnostiquer
+   3- 4 DNS transactions 
+      2 ARP  transactions 
+
+   
+   4 pour la transaction DNS : le query ou la demande est adréssé au serveur google 
+     pour tout la transaction ARP: le query est adréssé au routeur
+   5- transaction dns paquet 15: la question est posée à l'ordinnaterur ipv4 192.168.254 (serveur google paquet 15)
+      
+	  pour la transaction ARP: la question est posé à l'ordinateur ipv6: 0c:19:8a:7e:fe:00 (routeur)
